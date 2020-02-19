@@ -12,12 +12,12 @@ in golf are moved up significantly for women, and in tennis women play fewer set
 So clearly there is a precedent for having sports adjusted to account for the physiological differences in men 
 and women.”¹
 
-Through his research, B.G. had determined that the average height of the women in the WNBA was 72.57 inches for 
+We had determined that the average height of the women in the WNBA was 72.57 inches for 
 the 2016–17 season and 79.10 inches for the men in the NBA, a difference of 6.53 inches.
 
 ![Image](rm2.png)
 
-He went on to further calculate how high the average basketball player can jump by using standing reach, which 
+We went on to further calculate how high the average basketball player can jump by using standing reach, which 
 a HoopsBeast study shows to be 1.33x their normal height, and vertical jump. Based on these calculations, 
 how high the average NBA or WNBA player can jump would be calculated as follows:
 
@@ -52,13 +52,12 @@ Are there actual statistically significant differences in scoring between the NB
 B.G. and I wanted to explore what we considered “excitement metrics” — high scoring games, 3-pt attempts, fast breaks, clutch 
 time play and dunks.
  
-By scraping nba.com, wnba.com and using the sportrader API, I was able to find all of the relevant stats for these metrics
-and use them to compare the NBA and WNBA to see how they measured up to each other in terms of what we consider make for 
-an exciting game.
+By scraping nba.com, wnba.com and using the sportrader API, we were able to find all of the relevant stats for these metrics
+and build custom datasets. We then used the datasets to compare the NBA and WNBA to see how they measured up to each other in terms of what we consider make for an exciting game.
 
 So lets take a look at these metrics…
 
-Since an NBA game is 48 minutes verses 40 minutes for a WNBA game I needed to adjust the data.
+Since an NBA game is 48 minutes verses 40 minutes for a WNBA game we needed to adjust the data.
 After adjustment, you can see that the NBA **outscores** the WNBA by about 10–11 points per 40 minutes — about 93 points 
 to 82 points.
 
@@ -82,13 +81,13 @@ Running a two sample t-test again shows a very low p-value which means that thes
 
 ![Image](rm5.png)
 
-And here we are looking at **clutch time**, which I defined as the last 2 minutes of a game with a score differential of 5 points or less.
-To me, this is one of the most exciting parts of the game… it’s why people always joke that you really only ever have to 
+And here we are looking at **clutch time**, which we defined as the last 2 minutes of a game with a score differential of 5 points or less.
+To us, this is one of the most exciting parts of the game… it’s why people always joke that you really only ever have to 
 watch the last few minutes of a basketball game because this is where all the good stuff happens.
 
 ![Image](rm6.png)
 
-There is a huge difference between the two leagues — only 16% of the games in the WNBA are what I consider tight 
+There is a huge difference between the two leagues — only 16% of the games in the WNBA are what we consider tight 
 at the end verses 44% of the men’s games.
 
 That is approximately 65 games out of the 406 WNBA games being close verses 1082 games out of 2460 games of the NBA games.
@@ -101,7 +100,7 @@ And, since its inception, 22 years ago, in 1997 the WNBA has had a total of 11 d
 
 ![Image](rm7.png)
 
-Sooo, unfortunately, it looks like every metric that makes a basketball game exciting, the WNBA lags behind NBA.
+So, unfortunately, it looks like every metric that makes a basketball game exciting, the WNBA lags behind NBA.
 
 </br>
 </br>
